@@ -28,9 +28,9 @@ export default function HomePage(){
                 </b>
                 
                 <br></br> 
-                <Card style={{border:'none'}}> 
+                <div style={{border:'none'}}> 
                 <LocationDisplay/>
-                </Card>
+                </div>
              
             </div>
             <br></br>
