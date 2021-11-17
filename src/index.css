@@ -1,9 +1,176 @@
-.app-logo{
-  height: 70px;
-  width: 70px; 
+
+html,body,#root{
+  margin-top: 0px;
+  height: 100%;
+  text-align: center;
+  font-size: large;
+  background-color:#f2f2f2f2;
 }
+.app-logo{
+  height: 80px;
+  width: 80px; 
+  border-radius: 35px;
+}
+.app-nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  z-index: 300;
+}
+
 .nav-navbar{
+  height: 6rem;
+  width: 100%;
   display: flex;
-  margin:0;
-  padding: 0;
+  align-items: center;
+  background: rgb(242,242,242);
+  background: linear-gradient(0deg, rgba(242,242,242,1) 25%, rgba(203,180,136,1) 50%, rgba(35,31,32,1) 100%);
+  opacity: 0.80;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar-item a {
+  float: left;
+  display: block;
+  color: #231f20;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar-item a:hover {
+  color: rgb(30, 24, 5);
+  font-size: x-large;
+  scale: 1.05;
+}
+
+.nav-bar-item{
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.welcome-home{
+  align-items: center;
+}
+
+.whatsapp-QR{
+  height: 9%;
+  opacity: 0.88;
+}
+
+.whatsapp-QR:hover{
+  opacity: 1;
+}
+
+.contact.wrapper> a {
+  text-decoration: none;
+}
+.contact-link.facebook{
+  opacity: 0.69;
+  height: 15rem;
+}
+.contact-link.instagram{
+  height: 17rem;
+}
+.carousela{
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-image{
+ width: 100%;
+ height: 18rem;
+}
+
+.arrow-right{
+  position: absolute;
+  top :50%;
+  right: 32px;
+  font-size: 3rem;
+  color:  #231f20;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrow-left{
+  position: absolute;
+  top :50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #cbb488;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 2s;
+}
+
+.slide{
+  opacity: 0;
+  transition-duration: 2s ease;
+}
+
+.gallery-home{
+  height: 20rem;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+.gallery-container{
+  margin: 10px;
+  display: inline-flex;
+  overflow: auto;
+}
+.gallery-item{
+  margin: 2px;
+}
+
+.gallery-item> a> img{
+  width: auto;
+  height: 18rem;
+  opacity: 1;
+}
+
+.gallery-item> a> img:hover{
+  opacity: 0.80;
+}
+
+.footerRights{
+  margin-top: 1%;
+  color: #cbb488;
+  background-color: #231f20;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(99, 99, 99, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #231f20;
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
+}
+
+.gallery-home::-webkit-scrollbar {
+  width: 5px;
+}
+
+.gallery-home::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(99, 99, 99, 0);
+}
+ 
+.gallery-home::-webkit-scrollbar-thumb {
+  background: #cbb488;
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
 }

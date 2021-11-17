@@ -1,35 +1,18 @@
-import { NavLink } from "react-router-dom";
 import AppRouter from "./Components/appRouter";
-
+import FooterRights from "./Components/Footer";
+import NavBar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="Layout">
-      <NavBar></NavBar>
-      <AppRouter></AppRouter>
+      <div className="app-nav">
+        <NavBar/>
+      </div>
+      <div className="app-main">
+        <AppRouter></AppRouter>
+      </div>
+      <FooterRights/>
     </div>
   );
-}
-
-function NavBar(){
-  return(
-    <nav className="nav-navbar">
-      <img className="app-logo" src="https://image.freepik.com/free-vector/octopus-logo-concept_23-2148494541.jpg" alt="octo-logo"/>
-      <NavBarItem>
-            
-            <NavLink to="/home">Home</NavLink>
-                        
-            <NavLink to="/about">About us</NavLink>
-              
-            <NavLink to="/contact">Contact</NavLink>
-          
-      </NavBarItem>
-    </nav>
-  )
-}
-function NavBarItem(props){
-  return(
-    <div className="nav-bar-item">{props.children}</div>
-  )
 }
 export default App;

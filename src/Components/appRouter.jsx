@@ -1,20 +1,25 @@
 
-import { Redirect, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
 import HomePage from './HomePage';
+import BookingPage from './BookingPage';
 
 const AppRouter = ()=> {
     return(
     <>
     {/* switch router puts up one component at per view at a time, called by desired Path */}
-        <Switch>
-            <Route path ="/home" component = {HomePage} exact />
+        <Routes>
+            <Route path ="/home" element={<HomePage/>} exact />
             {/* About me & App 'help' page - guide and info */}
-            <Route path ="/about" component = {AboutPage} exact />
+            <Route path ="/about" element = {<AboutPage/>} />
+            {/* Booking Page - form for sending booking tattoos requests from clients. */}
+            <Route path ="/booking" element= {<BookingPage/>}/>
             {/* Contact page - facebook ,git , whatsapp ,phone ... */}
-            <Route path ="/contact" component= {ContactPage} exact/>
-        </Switch>
+            <Route path ="/contact" element= {<ContactPage/>}/>
+            {/* deafult path home - redirect all urls with no match */}
+            <Route path ='*' element ={<HomePage/>} />
+        </Routes>
     </>
     );
 };
