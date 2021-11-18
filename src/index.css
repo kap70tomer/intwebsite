@@ -38,7 +38,7 @@ html,body,#root,.Layout{
   color: #231f20;
   text-align: center;
   text-decoration: none;
-  font-size: x-large;
+  font-size: large;
 }
 
 .nav-bar-item a:hover {
