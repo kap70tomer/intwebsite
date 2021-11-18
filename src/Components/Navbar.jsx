@@ -16,13 +16,13 @@ export default function NavBar(){
         </NavBarItem>
         <NavBarItem>
             
-              <NavLink to="/booking"><i class="far fa-calendar-plus"></i> קביעת תור</NavLink>
+              <NavLink to="/booking"><i className="far fa-calendar-plus"></i> קביעת תור</NavLink>
               &nbsp;&nbsp;&nbsp;
               </NavBarItem>
 
         <NavBarItem>
             
-              <NavLink to="/contact"><i class="fas fa-user-friends"></i> רשתות חברתיות</NavLink>
+              <NavLink to="/contact"><i className="fas fa-user-friends"></i> רשתות חברתיות</NavLink>
               &nbsp;&nbsp;&nbsp;
               </NavBarItem>
 
