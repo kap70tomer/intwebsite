@@ -56,10 +56,11 @@ html,body,#root,.Layout{
 
 
 .contact.wrapper{
-
   background-color: white;
-  width: auto;
-  height: 100%;
+  width: 80%;
+  margin: auto;
+  border: solid 1px;
+  padding: 10px;
 }
 .whatsapp-QR{
   height: 5cm;
