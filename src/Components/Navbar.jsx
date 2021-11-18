@@ -7,27 +7,27 @@ export default function NavBar(){
         <NavLink to="/home"><img className="app-logo" src={Logoint} alt="octo-logo"/></NavLink>
         </NavBarItem>
         <NavBarItem>
-              <NavLink to="/home">הבית</NavLink>
+              <NavLink to="/home"><i className="fa fa-home"></i> הבית</NavLink>
         </NavBarItem>
 
         <NavBarItem>
-              <NavLink to="/about">מידע</NavLink>
+              <NavLink to="/about"><i className="fa fa-info"></i> מידע</NavLink>
               &nbsp;&nbsp;&nbsp;
         </NavBarItem>
         <NavBarItem>
             
-              <NavLink to="/booking">קביעת תור</NavLink>
+              <NavLink to="/booking"><i class="far fa-calendar-plus"></i> קביעת תור</NavLink>
               &nbsp;&nbsp;&nbsp;
               </NavBarItem>
 
         <NavBarItem>
             
-              <NavLink to="/contact">רשתות חברתיות</NavLink>
+              <NavLink to="/contact"><i class="fas fa-user-friends"></i> רשתות חברתיות</NavLink>
               &nbsp;&nbsp;&nbsp;
               </NavBarItem>
 
         <NavBarItem>
-        <a href="tel:0522177853"> 052-2177853 חייג עכשיו</a>
+        <a href="tel:0522177853"> <i className="fa fa-phone"></i> 052-2177853 חייג עכשיו</a>
 
         </NavBarItem>
 
