@@ -7,7 +7,8 @@ html,body,#root,.Layout{
   background-color:#f2f2f2f2;
 }
 .app-main{
-  height: 100%;
+  height: 90%;
+  margin-top: 100px;
 }
 .app-logo{
   height: 80px;
@@ -15,10 +16,10 @@ html,body,#root,.Layout{
   border-radius: 35px;
 }
 .app-nav{
-  position: -webkit-sticky;
-  position: sticky;
-  top:0px;
-  z-index: 300;
+  position: fixed;
+  top: 0px;
+  width: -webkit-fill-available;
+  z-index: 3000;
 }
 
 .nav-navbar{
