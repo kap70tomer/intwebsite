@@ -185,3 +185,11 @@ body::-webkit-scrollbar-thumb {
   border: none;
   background-color: inherit;
 }
+
+.send-btn{
+  background-color: rgb(242, 206, 139);
+}
+.send-btn:disabled{
+  background-color: black;
+  opacity: 0.45;
+}

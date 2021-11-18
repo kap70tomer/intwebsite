@@ -121,7 +121,7 @@ export default function BookingForm(){
                             onChange={e => fileUploadHandler(e)}
                         />
                     </Form.Group>
-                    <Button disabled={!validateForm()} type="submit">
+                    <Button className="send-btn" disabled={!validateForm()} type="submit">
                         !שלח
                     </Button>
                 </Form>
