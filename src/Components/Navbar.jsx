@@ -11,7 +11,7 @@ export default function NavBar(){
         </NavBarItem>
 
         <NavBarItem>
-              <NavLink to="/about">מידע </NavLink>
+              <NavLink to="/about">מידע</NavLink>
               &nbsp;&nbsp;&nbsp;
         </NavBarItem>
         <NavBarItem>
@@ -27,7 +27,7 @@ export default function NavBar(){
               </NavBarItem>
 
         <NavBarItem>
-        <a href="tel:0522177853">052-2177853 חייג עכשיו</a>
+        <a href="tel:0522177853"> 052-2177853 חייג עכשיו</a>
 
         </NavBarItem>
 

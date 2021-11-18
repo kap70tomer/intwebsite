@@ -122,10 +122,11 @@ export default function BookingForm(){
                         />
                     </Form.Group>
                     <Button disabled={!validateForm()} type="submit">
-                        שלח
+                        !שלח
                     </Button>
                 </Form>
             </div>
+            <br/>
         </>
     )
 }
