@@ -15,15 +15,15 @@ export default function HomePage(){
             <div className ="welcome-home container">
             <Card>
                <CardHeader>
-                <h2>ברוכים הבאים לאינטואיציה הבית לקעקועים שלכם</h2>
+                <h2 className="home-header">ברוכים הבאים לאינטואיציה הבית לקעקועים שלכם</h2>
                 </CardHeader>
             
                 <h4>INTuition Tattoos & ART Studio</h4>
                 <h6>By Yehuda Kalderon</h6>
                 
-                <p>
-                    אינטואיציה באה מבפנים ובעזרת קווים אעזור לכם לבטא ולהגשים חלומות בדיו באווירה ביתית סטרילית ונעימה 
-                </p>
+                <i>
+                    אינטואיציה באה מבפנים ובעזרת קווים אעזור לכם להגשים ולבטא חלומות בדיו. באווירה ביתית סטרילית ונעימה 
+                </i>
                 
                 <br/>
                 <b>
