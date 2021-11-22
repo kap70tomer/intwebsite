@@ -19,7 +19,7 @@ html,body,#root,.Layout{
   position: fixed;
   top: 0px;
   width: -webkit-fill-available;
-  z-index: 3000;
+  z-index: 3001;
 }
 
 .nav-navbar{
