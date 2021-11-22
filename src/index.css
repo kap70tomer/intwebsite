@@ -35,7 +35,7 @@ html,body,#root,.Layout{
 
 .nav-bar-item a {
   float: left;
-  display: block;
+  display: grid;
   color: #231f20;
   text-align: center;
   text-decoration: none;
