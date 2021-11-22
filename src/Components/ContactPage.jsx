@@ -1,6 +1,7 @@
 import WhatsappQR from "../Assets/WhatsAppQR.JPG";
 import FaceBookimg from "../Assets/fb.jpg";
 import Intaimg from "../Assets/inst.png";
+import BookingForm from "./BookingForm";
 
 export default function ContactPage() {
     return(
@@ -12,8 +13,8 @@ export default function ContactPage() {
                 &nbsp;&nbsp;&nbsp;
                 <h3>Click or Scan this QR with WhatsApp Camera to start Chat!</h3>
                 <a className="container" href="https://api.whatsapp.com/message/7SJZ3TRRFVM5G1"><img className="whatsapp-QR" alt='whatsapp chat' src={WhatsappQR}/></a> 
-                
             </div>
+            <BookingForm />
         </>
     )
 }
