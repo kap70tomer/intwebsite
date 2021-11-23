@@ -4,11 +4,13 @@ export default function WorkingHoursTable() {
     return (
         <>
             <table>
-                <tr><th>Sunday</th><td>9am - 6pm</td></tr>
-                <tr><th>Monday</th><td>9am - 6pm</td></tr>
-                <tr><th>Tuesday</th><td>9am - 6pm</td></tr>
-                <tr><th>Wednesday</th><td>9am - 6pm</td></tr>
-                <tr><th>Thursday</th><td>9am - 6pm</td></tr>
+                <tbody>
+                <tr><th>ראשון</th><td>9am - 6pm</td></tr>
+                <tr><th>שני</th><td>9am - 6pm</td></tr>
+                <tr><th>שלישי</th><td>9am - 6pm</td></tr>
+                <tr><th>רביעי</th><td>9am - 6pm</td></tr>
+                <tr><th>חמישי</th><td>9am - 6pm</td></tr>
+                </tbody>
             </table>
         </>
     )
