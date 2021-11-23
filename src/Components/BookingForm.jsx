@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import  Button  from "react-bootstrap/Button";
-import  Form  from "react-bootstrap/Form"; 
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 import '../Styles/sendButton.css';
 import '../Styles/bookingForm.css';
 // import tattoosService from '../Services/tattoosService';
 
-export default function BookingForm(){
+export default function BookingForm() {
     const [full_name, setFullName] = useState('');
     const [phone, setPhone] = useState('');
     const [eMail, setEmail] = useState('');
     const [description, setDescription] = useState('');
     const [body_part, setBodyPart] = useState('');
     // const [file, setFile] = useState(new File([],""));
-    
+
 
     // const handleUploadSubmited = event => {
     //     event.preventDefault();
-       
+
     //     let newBookingInfo ={
 
     //         full_name: full_name,
@@ -28,7 +28,7 @@ export default function BookingForm(){
     //     } 
     //     uploadHandler(newBookingInfo);
     // };
-    
+
     // //Handle async request for booking from clients sent to api.
     // const uploadHandler = async(newBookingInfo)=>{
     //     try{
@@ -40,7 +40,7 @@ export default function BookingForm(){
     //        alert(e);
     //     }
     // }
- 
+
     //on input change takes in the new choosen file and set it to state.
     //then creates form data including the file to send.
     // const fileUploadHandler = e =>{
@@ -62,28 +62,28 @@ export default function BookingForm(){
     //         alert(e);
     //     };
     // };
-   
+
     //Validations function, blocking the 'sent' button on UI so email can be sent only if the form field are not empty.
-    function validateForm () {
+    function validateForm() {
         return description.length > 0 && phone.length > 0 && eMail.length > 0 && full_name.length > 0;
     };
 
-    return(
+    return (
         <>
             <div className="booking-form">
-                <Form  action="https://submit-form.com/LEW7uvWb">
-                    <Form.Label className ='bookingForm'>
+                <Form action="https://submit-form.com/LEW7uvWb">
+                    <Form.Label className='bookingForm'>
                         <h4>:לפגישת יעוץ וקביעת תור יש למלא את הפרטים הבאים</h4>
                     </Form.Label>
                     <Form.Group controlId='fullname'>
                         <h3>שם מלא</h3>
                         <Form.Control
-                            name="name" 
+                            name="name"
                             type="text"
                             value={full_name}
                             onChange={e => setFullName(e.target.value)}
                         />
-                    </Form.Group>    
+                    </Form.Group>
                     <Form.Group controlId='phone'>
                         <h3> מספר טלפון</h3>
                         <Form.Control
@@ -101,7 +101,7 @@ export default function BookingForm(){
                             value={eMail}
                             onChange={e => setEmail(e.target.value)}
                         />
-                    </Form.Group>                
+                    </Form.Group>
                     <Form.Group controlId='bPart'>
                         <h3> איזור בגוף בו תרצה/י להתקעקע</h3>
                         <Form.Control
@@ -113,7 +113,7 @@ export default function BookingForm(){
                     </Form.Group>
                     <Form.Group controlId='description'>
                         <h3> תאר/י את הרעיון לקעקוע</h3>
-                        <Form.Control 
+                        <Form.Control
                             type="text"
                             name="TattooIdea"
                             value={description}
@@ -130,11 +130,11 @@ export default function BookingForm(){
                         />
                     </Form.Group> */}
                     <Button className="send-btn" disabled={!validateForm()} type="submit">
-                        !שלח
+                        <i className="far fa-paper-plane" />!שלח
                     </Button>
                 </Form>
             </div>
-            <br/>
+            <br />
         </>
     )
 }
