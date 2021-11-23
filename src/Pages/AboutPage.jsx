@@ -1,6 +1,5 @@
 import { Card } from "react-bootstrap";
 import CardHeader from "react-bootstrap/esm/CardHeader";
-import LocationDisplay from "../Components/LocationDisplay";
 import '../Styles/about.css'
 
 export default function AboutPage() {
@@ -22,12 +21,9 @@ export default function AboutPage() {
                     יחד, בעבודה משותפת קשובה נוכל לייצר כול קעקוע משלל אופציות.
                     כדי שיהיה מיוחד במינו
                 </p>
-            </Card> 
-            <br/>
-            <LocationDisplay/>    
-            <br/>
+            </Card>     
 
-            <Card className="profolio container">
+            <Card className="profolio">
                 <CardHeader>
                 <h4>    
                     קצת על עצמי 
@@ -52,7 +48,7 @@ export default function AboutPage() {
                 </p>
             </Card>
             <br/> 
-            <Card className="mystyles container">
+            <Card className="mystyles">
                 <CardHeader>
                 <h4>הסגנון שאני מביא</h4>
                 </CardHeader>
