@@ -5,11 +5,11 @@ export default function BookingInfoPage (){
 
     return(
         <div className="content container">
-           <CardHeader>
+          
             <h4>
             כשאנחנו ניגשים לבניית הקעקוע, נדרש מאיתנו לענות על שלוש שאלות עיקריות קודם לכן:
             </h4>
-            </CardHeader>
+            
             <br/>   
             
             <Card>
@@ -69,7 +69,7 @@ export default function BookingInfoPage (){
         </Card>
         <br/>
         <Card>
-                **ניתן להעזר בעוד היבט**
+                <b>**ניתן להעזר בעוד היבט**</b>
             <CardHeader>
                 <h5>סגנון</h5>
             </CardHeader>
