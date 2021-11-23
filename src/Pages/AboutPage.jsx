@@ -6,7 +6,7 @@ import '../Styles/about.css'
 export default function AboutPage() {
     return(
         <>
-            <Card className ="about-studio container">
+            <Card className ="about-studio">
                <CardHeader> <h1>הסטודיו שלנו</h1></CardHeader>
                 <p className="our-studio-para"> 
                     פעמים רבות אנחנו נתקלים בשאלה של מה לבחור, למי להקשיב ולמי לשתף את רחשי הלב

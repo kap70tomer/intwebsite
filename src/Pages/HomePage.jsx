@@ -13,7 +13,7 @@ export default function HomePage(){
            
              <ComponentCarousela/> 
           
-            <div className ="welcome container">
+            <div className ="welcome">
             <Card>
                <CardHeader>
                 <h2 className="home-header">ברוכים הבאים לאינטואיציה הבית לקעקועים שלכם</h2>
@@ -36,7 +36,7 @@ export default function HomePage(){
             <div className="gallery-home">
                 <GalleryPage />
             </div>
-            <div className="booking-home card container">
+            <div className="booking-home card">
                 <BookingForm/>
             </div>
         </>
