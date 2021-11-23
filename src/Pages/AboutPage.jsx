@@ -20,11 +20,7 @@ export default function AboutPage() {
                 </p>
             </Card> 
             <br></br>
-            
-            <div className="container location-warapper"> 
-            <LocationDisplay/>
-            </div>      
-            
+            <LocationDisplay/>    
             <br/>
 
             <Card className="profolio container">
@@ -66,7 +62,7 @@ export default function AboutPage() {
                 </p>
             </Card>
             <br/>
-            <Card className="QandA container">
+            <Card className="QandA">
                 <CardHeader>
                 <h4>
                     שאלות נפוצות
