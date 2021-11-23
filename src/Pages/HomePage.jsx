@@ -2,7 +2,7 @@ import BookingForm from "../Components/BookingForm";
 import GalleryPage from "../Components/GalleryComponent";
 import ComponentCarousela from "../Components/Carousela";
 import LocationDisplay from "../Components/LocationDisplay"
-import { Card, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import CardHeader from "react-bootstrap/esm/CardHeader";
 import '../Styles/home.css';
 import BookingInfoPage from "../Components/BookingInfo";
