@@ -14,10 +14,10 @@
   .nav-bar-item a {
     float: left;
     display: grid;
-    color: #1a1a1a;
+    color: #303030;
     text-align: center;
     text-decoration: none;
-    font-size: large;
+    font-size: xxx-large;
   }
   .nav-bar-item a:hover {
     color: rgb(252, 252, 252);
