@@ -4,3 +4,6 @@
   .home-header{
     font-family: 'Rubik Beastly', cursive;
   }
+  .info-wrapper{
+    display: -webkit-inline-box;
+  }
