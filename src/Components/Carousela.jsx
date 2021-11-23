@@ -14,8 +14,11 @@ const CarouselContainer =()=>{
     let length = images.length;
     // On component mounted, call Timeout func taking in nextSlide to resulting in 'auto slide show' effect UI.
     useEffect(()=>{
-        setTimeout(nextSlide,12000);
+        const timer = setTimeout(nextSlide,12000);
+        
+        return()=> {clearTimeout(timer)}
     });
+    
     
     // Validations to 'images' Array before render. 
     if(!Array.isArray(images)|| images.length <= 0){
