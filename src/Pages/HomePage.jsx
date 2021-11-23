@@ -2,9 +2,11 @@ import BookingForm from "../Components/BookingForm";
 import GalleryPage from "../Components/GalleryComponent";
 import ComponentCarousela from "../Components/Carousela";
 import LocationDisplay from "../Components/LocationDisplay"
-import { Card } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import CardHeader from "react-bootstrap/esm/CardHeader";
 import '../Styles/home.css';
+import BookingInfoPage from "../Components/BookingInfo";
+import WorkingHoursTable from "../Components/WorkingHoursTable";
 
 export default function HomePage(){
     return(
@@ -17,26 +19,28 @@ export default function HomePage(){
             <Card>
                <CardHeader>
                 <h2 className="home-header">ברוכים הבאים לאינטואיציה הבית לקעקועים שלכם</h2>
-                </CardHeader>
-            
+                </CardHeader>            
                 <h4>INTuition Tattoos & ART Studio</h4>
-                
                 <i>
                     אינטואיציה באה מבפנים ובעזרת קווים אעזור לכם להגשים ולבטא חלומות בדיו. באווירה ביתית סטרילית ונעימה 
                 </i>
-                
+                <br/>
             </Card>
-                <br></br> 
-                <div style={{border:'none'}}> 
+                <br/> 
+                
+            <div className="info-wrapper">
+                <WorkingHoursTable/>
                 <LocationDisplay/>
-                </div>
+            </div>
+                
             </div>
             <br></br>
             {/* Display component - instagram feed - via 'insta-feed.js' */}
             <div className="gallery-home">
                 <GalleryPage />
             </div>
-            <div className="booking-home card">
+            <div className="booking-home card container">
+                <BookingInfoPage/>
                 <BookingForm/>
             </div>
         </>
