@@ -1,0 +1,7 @@
+.footerRights{
+    color: #cbb488;
+      background-color: #231f20;
+      position: fixed;
+      bottom: -5px;
+      width: -webkit-fill-available;
+  }

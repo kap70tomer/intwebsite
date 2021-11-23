@@ -1,0 +1,40 @@
+.carousela{
+    position: relative;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 250px; */
+  }
+  .slide-image{
+   width: 100%;
+   height: 10cm;
+  }
+  .arrow-right{
+    position: absolute;
+    top :50%;
+    right: 32px;
+    font-size: 3rem;
+    color:  #231f20bb;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .arrow-left{
+    position: absolute;
+    top :50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #cbb488bb;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .slide.active{
+    opacity: 1;
+    transition-duration: 2s;
+  }
+  .slide{
+    opacity: 0;
+    transition-duration: 2s ease;
+  }

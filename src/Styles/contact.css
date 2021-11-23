@@ -1,0 +1,20 @@
+.contact.wrapper{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border: solid 1px;
+    padding: 10px;
+  }
+  .whatsapp-QR{
+    height: 5cm;
+  }
+  .contact.wrapper> a {
+    text-decoration: none;
+  }
+  .contact-link.facebook{
+    height: 5cm;
+  }
+  .contact-link.instagram{
+    height: 6cm;
+  }
+  

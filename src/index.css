@@ -1,4 +1,3 @@
-
 html,body,#root,.Layout{
   margin-top: 0px;
   height: 100%;
@@ -7,22 +6,15 @@ html,body,#root,.Layout{
   background-color:#f2f2f2f2;
 }
 .app-main{
-  height: 90%;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .app-logo{
-  height: 80px;
-  width: 80px; 
-  border-radius: 35px;
-}
-.app-nav{
-  position: fixed;
-  top: 0px;
-  width: -webkit-fill-available;
-  z-index: 3001;
+  height: 70px;
+  width: 70px; 
+  border-radius: 45px;
 }
 
-.nav-navbar{
+/* .nav-navbar{
   height: 100px;
   width: 100%;
   display: flex;
@@ -32,7 +24,6 @@ html,body,#root,.Layout{
   opacity: 0.80;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .nav-bar-item a {
   float: left;
   display: grid;
@@ -41,24 +32,19 @@ html,body,#root,.Layout{
   text-decoration: none;
   font-size: large;
 }
-
 .nav-bar-item a:hover {
   color: rgb(252, 252, 252);  
 }
-
 .nav-bar-item{
   margin: 0px auto;
   padding: 10px;
 }
-
 .welcome-home{
   align-items: center;
 }
 .home-header{
   font-family: 'Rubik Beastly', cursive;
 }
-
-
 .contact.wrapper{
   background-color: white;
   width: 80%;
@@ -69,7 +55,6 @@ html,body,#root,.Layout{
 .whatsapp-QR{
   height: 5cm;
 }
-
 .contact.wrapper> a {
   text-decoration: none;
 }
@@ -85,14 +70,11 @@ html,body,#root,.Layout{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 250px; */
 }
-
 .slide-image{
  width: 100%;
  height: 10cm;
 }
-
 .arrow-right{
   position: absolute;
   top :50%;
@@ -103,7 +85,6 @@ html,body,#root,.Layout{
   cursor: pointer;
   user-select: none;
 }
-
 .arrow-left{
   position: absolute;
   top :50%;
@@ -114,17 +95,14 @@ html,body,#root,.Layout{
   cursor: pointer;
   user-select: none;
 }
-
 .slide.active{
   opacity: 1;
   transition-duration: 2s;
 }
-
 .slide{
   opacity: 0;
   transition-duration: 2s ease;
 }
-
 .gallery-home{
   height: 12cm;
   width: 100%;
@@ -139,17 +117,14 @@ html,body,#root,.Layout{
 .gallery-item{
   margin: 2px;
 }
-
 .gallery-item> a> img{
   width: auto;
   height: 18rem;
   opacity: 1;
 }
-
 .gallery-item> a> img:hover{
   opacity: 0.80;
 }
-
 .footerRights{
   color: #cbb488;
     background-color: #231f20;
@@ -157,44 +132,36 @@ html,body,#root,.Layout{
     bottom: -5px;
     width: -webkit-fill-available;
 }
-
 body::-webkit-scrollbar {
   width: 5px;
 }
-
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(99, 99, 99, 0);
 }
- 
 body::-webkit-scrollbar-thumb {
   background: #39321c;
   border-radius: 16px;
   box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
 }
-
 .gallery-home::-webkit-scrollbar {
   width: 5px;
 }
-
 .gallery-home::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(99, 99, 99, 0);
 }
- 
 .gallery-home::-webkit-scrollbar-thumb {
   background: #cbb488;
   border-radius: 16px;
   box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
 }
-
-.card{
-  border: none;
-  background-color: inherit;
-}
-
 .send-btn{
   background-color: rgb(242, 206, 139);
 }
 .send-btn:disabled{
   background-color: black;
   opacity: 0.45;
+} */
+.card{
+  border: none;
+  background-color: inherit;
 }

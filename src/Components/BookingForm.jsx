@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import  Button  from "react-bootstrap/Button";
 import  Form  from "react-bootstrap/Form"; 
-import tattoosService from '../Services/tattoos';
+import '../Styles/sendButton.css';
+import '../Styles/bookingForm.css';
+// import tattoosService from '../Services/tattoosService';
 
 export default function BookingForm(){
     const [full_name, setFullName] = useState('');
@@ -9,7 +11,7 @@ export default function BookingForm(){
     const [eMail, setEmail] = useState('');
     const [description, setDescription] = useState('');
     const [body_part, setBodyPart] = useState('');
-    const [file, setFile] = useState(new File([],""));
+    // const [file, setFile] = useState(new File([],""));
     
 
     // const handleUploadSubmited = event => {
@@ -65,9 +67,10 @@ export default function BookingForm(){
     function validateForm () {
         return description.length > 0 && phone.length > 0 && eMail.length > 0 && full_name.length > 0;
     };
+
     return(
         <>
-            <div className="booking-form container">
+            <div className="booking-form">
                 <Form  action="https://submit-form.com/LEW7uvWb">
                     <Form.Label className ='bookingForm'>
                         <h4>:לפגישת יעוץ וקביעת תור יש למלא את הפרטים הבאים</h4>

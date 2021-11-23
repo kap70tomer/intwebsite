@@ -1,0 +1,9 @@
+.app-main{
+  height: 90%;
+  margin-top: 100px;
+}
+.app-logo{
+  height: 80px;
+  width: 80px; 
+  border-radius: 35px;
+}

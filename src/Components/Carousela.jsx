@@ -1,5 +1,5 @@
 // Caousel component - Displays photos-slider at home page.
-
+import '../Styles/carousele.css';
 import { useEffect, useState } from "react";
 // Array of images of the buisness as data model for display, imported from 'src/Assets' static dir. 
 import { images } from "../Helpers/CarouselaData";
@@ -36,7 +36,7 @@ const CarouselContainer =()=>{
     
     return (
         
-        <div className='carousela'>
+        <div className='carousela' style={{backgroundColor: 'black'}}>
             
             <FaArrowAltCircleLeft className="arrow-left" onClick={prevSlide} />
     

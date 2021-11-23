@@ -1,7 +1,8 @@
 import WhatsappQR from "../Assets/WhatsAppQR.JPG";
 import FaceBookimg from "../Assets/fb.jpg";
 import Intaimg from "../Assets/inst.png";
-import BookingForm from "./BookingForm";
+import BookingForm from "../Components/BookingForm";
+import '../Styles/contact.css';
 
 export default function ContactPage() {
     return(

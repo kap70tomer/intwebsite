@@ -1,6 +1,7 @@
 import { Card } from "react-bootstrap";
 import CardHeader from "react-bootstrap/esm/CardHeader";
-import LocationDisplay from "./LocationDisplay"
+import LocationDisplay from "../Components/LocationDisplay";
+import '../Styles/about.css'
 
 export default function AboutPage() {
     return(
