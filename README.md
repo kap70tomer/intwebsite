@@ -39,23 +39,21 @@ Scroll through a pictures gallery of past projects made by Y.K. in I.n.t. Studio
 Get the right guidelines knowlage and relevant information you need to create your 'dream come true' Tattoo. 
 
 
-## Users Stories
-- A user can get to know the place and its working hours.
-- A user can Find & Navigate to the studio. (google Maps Api).
-- A user can send a Contact form to reach the Studio's e-mail.
-- A user can go to linked Social Media Pages.
-- A user can call or start a Whatsapp chat.
-- A user can see pictures of past client's Tattoos to admire the work.
+## Features
+- Get to know the place and its working hours.
+- Find & Navigate to the studio. (google Maps Api).
+- Contact form to reach the Studio's e-mail.
+- linked Social Media Pages.
+- Call or Start a Whatsapp chat.
+- Pictures Gallery of past client's Tattoos to admire the work.
+
 # UI - preview
 ![inta](https://user-images.githubusercontent.com/65711940/145719520-0475168f-5bf2-42c8-80b2-83a9d5aa6bb1.jpeg)
 
 ### Main page - contact us form
 ![intTa](https://user-images.githubusercontent.com/65711940/145719494-e8cd394d-08bf-4dd2-8b74-b0409fdb7bbd.jpeg)
 
-
 ### Main page - small device view
 ![intTa1](https://user-images.githubusercontent.com/65711940/145719574-593e5e0f-51ec-4dc2-b692-9e765d3fbd8e.jpeg)
-
-
 Designed for a unified experience across All platforms.
 
