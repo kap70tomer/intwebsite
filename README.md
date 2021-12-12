@@ -47,17 +47,14 @@ Get the right guidelines knowlage and relevant information you need to create yo
 - A user can call or start a Whatsapp chat.
 - A user can see pictures of past client's Tattoos to admire the work.
 # UI - preview
-
-![inta](https://user-images.githubusercontent.com/65711940/145719313-4ad2fa3a-08f7-491a-acdb-593a94306b58.jpeg)
+![inta](https://user-images.githubusercontent.com/65711940/145719520-0475168f-5bf2-42c8-80b2-83a9d5aa6bb1.jpeg)
 
 ### Main page - contact us form
-
-![intTa](https://user-images.githubusercontent.com/65711940/145719328-a6d97850-e8e2-447f-947a-38ce9e1d0f3c.jpeg)
+![intTa](https://user-images.githubusercontent.com/65711940/145719494-e8cd394d-08bf-4dd2-8b74-b0409fdb7bbd.jpeg)
 
 
 ### Main page - small device view
-
-![intTa1](https://user-images.githubusercontent.com/65711940/145719322-c0c53571-91f7-49e1-bfed-c75c59a2c85d.jpeg)
+![intTa1](https://user-images.githubusercontent.com/65711940/145719574-593e5e0f-51ec-4dc2-b692-9e765d3fbd8e.jpeg)
 
 
 Designed for a unified experience across All platforms.
