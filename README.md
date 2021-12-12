@@ -32,12 +32,13 @@ but they will point to the copied scripts so you can tweak them.
 At this point you’re on your own.
 ### Note: this is a one-way operation. Once you eject, you can’t go back!
 
-## Features
+## Website Content
+Navigation bar at the top with social media links and call icons.
 Carousle at the top of the Page displays the buisness Ads and Pictures of the place.
-Fill out 'contact us' form at the bottom of the page to reach out and book a meeting.
+Table of working houres and a Map with a mark of the studio.
 Scroll through a pictures gallery of past projects made by Y.K. in I.n.t. Studio.
 Get the right guidelines knowlage and relevant information you need to create your 'dream come true' Tattoo. 
-
+Fill out 'contact us' form at the bottom of the page to reach out and book a meeting.
 
 ## Features
 - Get to know the place and its working hours.
