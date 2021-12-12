@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Intuition Tattoos Website 
+A Landing Page for I.N.T Studio by Y.K.
+The buisness Digital Asset, Shows the place in Pictures and explain the methodologies. 
+Clients can get to know the place better and reach out.
+the website provides relevent info about the stodio and Tattoos in general.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run the app 
+1.  Either fork or download the app and open the directory in the cli.
+2.  Install all dependencies using the 'npm i' command.  
+![intDep](https://user-images.githubusercontent.com/65711940/145717968-ae7d4a98-f3f4-44f3-bb9b-a3c8bcdda74b.jpeg)
+3.  Start the web server using the 'npm run' command.
+    The app will be served at http://localhost:3000/
+4.  Go to http://localhost:3000/ in your browser and enjoy.
 
-## Available Scripts
+*Deployed using create-react-app.
+## Available commands
+'npm run'
 
-In the project directory, you can run:
+Start the app in development mode on http://localhost:3000.
 
-### `npm start`
+'npm run build'
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Build the project for production.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+'npm run eject'
 
-### `npm test`
+It will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All of the commands except eject will still work, 
+but they will point to the copied scripts so you can tweak them.
 
-### `npm run build`
+At this point you’re on your own.
+### Note: this is a one-way operation. Once you eject, you can’t go back!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+Carousle at the top of the Page displays the buisness Ads and Pictures of the place.
+Fill out 'contact us' form at the bottom of the page to reach out and book a meeting.
+Scroll through a pictures gallery of past projects made by Y.K. in I.n.t. Studio.
+Get the right guidelines knowlage and relevant information you need to create your 'dream come true' Tattoo. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Users Stories
+- A user can get to know the place and its working hours.
+- A user can Find & Navigate to the studio. (google Maps Api).
+- A user can send a Contact form to reach the Studio's e-mail.
+- A user can go to linked Social Media Pages.
+- A user can call or start a Whatsapp chat.
+- A user can see pictures of past client's Tattoos to admire the work.
+# UI - preview
 
-### `npm run eject`
+### Main page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Main page - small device view
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Designed for a unified experience across All platforms.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
