@@ -48,9 +48,17 @@ Get the right guidelines knowlage and relevant information you need to create yo
 - A user can see pictures of past client's Tattoos to admire the work.
 # UI - preview
 
-### Main page
+![inta](https://user-images.githubusercontent.com/65711940/145719313-4ad2fa3a-08f7-491a-acdb-593a94306b58.jpeg)
+
+### Main page - contact us form
+
+![intTa](https://user-images.githubusercontent.com/65711940/145719328-a6d97850-e8e2-447f-947a-38ce9e1d0f3c.jpeg)
+
 
 ### Main page - small device view
+
+![intTa1](https://user-images.githubusercontent.com/65711940/145719322-c0c53571-91f7-49e1-bfed-c75c59a2c85d.jpeg)
+
 
 Designed for a unified experience across All platforms.
 
