@@ -5,12 +5,12 @@ Clients can get to know the place better and reach out.
 the website provides relevent info about the stodio and Tattoos in general.
 
 ## How to run the app 
-1.  Either fork or download the app and open the directory in the cli.
-2.  Install all dependencies using the 'npm i' command.  
+1.  Either fork or download the app and open the directory in your cli.
+2.  Use 'npm install' command to install dependencies. ->  
 ![intDep](https://user-images.githubusercontent.com/65711940/145717968-ae7d4a98-f3f4-44f3-bb9b-a3c8bcdda74b.jpeg)
 3.  Start the web server using the 'npm run' command.
     The app will be served at http://localhost:3000/
-4.  Go to http://localhost:3000/ in your browser and enjoy.
+4.  Open http://localhost:3000/ in your browser and enjoy.
 
 *Deployed using create-react-app.
 ## Available commands
